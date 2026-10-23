@@ -1,0 +1,90 @@
+/* Aplica reglas css a toda la pagina */
+body{
+    background-color: rgb(236, 238, 238); /*color de fondo*/
+    color: darkmagenta; /* color de texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* familia tipográfica */
+}
+
+/* aplica las reglas css a todos los titulos con h1 */
+h1{
+    color: blueviolet;
+    text-align: center; /* alineacion de texto */
+}
+
+h2{
+    color: rgb(11, 11, 196);  /* color de texto de hipervinculo */
+    border-bottom: 1px solid darkred; /* borde inferior */
+}
+
+/* texto de parrafo */
+p{
+    font-size: 18px;
+    line-height: 1.5; /* interlineado */
+}
+
+/* link */
+a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+/* imagenes */
+img{
+    width: 300px;
+    height: auto;
+}
+
+/* class para el titulo de las peliculas */
+.titulo-peliculas{
+    color:rgb(240, 99, 122);
+    border-bottom: solid 2px rgba(0, 128, 0, 0.452);
+}
+/* class para el titulo de helado */
+.titulo-helado{
+    color: crimson;
+    border-bottom: dotted 2px  rgb(236, 8, 53);
+} 
+.titulo-musica{
+    color:deeppink;
+    border-bottom: dashed 2px goldenrod;
+
+}
+/* esto es un id para cambiar el formato del titulo principal */
+#titulo-principal{
+    background-color:rgb(118, 180, 241);
+     color: rgba(226, 13, 102, 0.842);
+     font-size: 30px;
+     letter-spacing: 2px; /* espacio entre caracteres */
+     padding-top: 20px; /* espacio superior entre el texto y el borde del contenedor */
+     padding-bottom: 20px; /* espacio inferior entre el texto y el borde del contenedor */
+}
+
+/* Menu o barra de navegacion en cajita */
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+/*pie de pagina */
+footer {
+    text-align: center; /* alineacion de texto */
+    font-size: 14px;
+    border-top: 1px solid darkred; /* borde superior */
+}
+
+/* tamaño de las imagenes de redes sociales */
+.flex-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+ .imagen_footer{
+    width: 30px;
+    height: 30px;  
+ }
+
